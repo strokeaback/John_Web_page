@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900&display=swap");
-
 @font-face {
   font-family: "icons";
   font-display: swap;
@@ -924,6 +922,10 @@ body.ie ._ibg img {
   cursor: pointer;
   z-index: 30;
   background: url("../img/icons/close.svg") 0 0 no-repeat;
+}
+
+.header__content {
+  max-width: 1032px;
 }
 
 /*

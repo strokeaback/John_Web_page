@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="592ac261-6fdd-4ea1-b763-209e2b271a74" name="Default Changelist" comment="" />
+    <list default="true" id="592ac261-6fdd-4ea1-b763-209e2b271a74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/#src/fonts/Heebo-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/fonts/Heebo-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/fonts/Heebo-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/fonts/Heebo-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/fonts/icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/fonts/icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/check.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/close.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/loading.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/p-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/p-left.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/p-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/img/icons/p-right.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/js/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/js/vendors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls_start_gulp_patrones/js/vendors.min.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,8 +70,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/fls_start_gulp_patrones" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nurali\Documents\John\#src\fonts" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,11 +90,23 @@
       <updated>1626683945209</updated>
       <workItem from="1626683946338" duration="11000" />
       <workItem from="1627970022837" duration="334000" />
-      <workItem from="1627970454901" duration="1581000" />
+      <workItem from="1627970454901" duration="2061000" />
+      <workItem from="1627972551788" duration="3011000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
