@@ -164,10 +164,27 @@ body._lock {
 }
 
 .btn {
+  background-color: #FF6464;
+  border-radius: 2px;
+  height: 47px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 145%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  padding: 0px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0px 20px;
+  -webkit-transition: background-color 0.3s ease 0s;
+  -o-transition: background-color 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s;
 }
 
 .btn._fw {
@@ -1041,6 +1058,10 @@ body.ie ._ibg img {
 }
 
 @media (min-width: 992px) {
+  .btn:hover {
+    background-color: #d95757;
+  }
+
   .select__option:hover {
     background: #d9d9d9;
   }
