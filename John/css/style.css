@@ -138,7 +138,7 @@ h6 {
 }
 
 body {
-  color: #000;
+  color: #21243D;
 }
 
 body._lock {
@@ -578,6 +578,19 @@ textarea.input {
   font-size: 12px;
   width: 100%;
   text-align: center;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #21243D;
+  line-height: 136.3636363636%;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 143.75%;
+  color: #21243D;
 }
 
 .row:after {
@@ -1027,6 +1040,25 @@ body.ie ._ibg img {
 	}
 }
 */
+
+.hello__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hello__avavtar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 243px;
+          flex: 0 0 243px;
+  height: 243px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hello__avavtar img {
+  max-width: 100%;
+}
 
 .page {
   -webkit-box-flex: 1;
