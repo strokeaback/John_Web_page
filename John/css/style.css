@@ -1047,16 +1047,33 @@ body.ie ._ibg img {
   display: flex;
 }
 
-.hello__avavtar {
+.hello__content {
+  padding: 0px 110px 0px 0px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.hello__title {
+  margin: 0px 0px 25px 0px;
+}
+
+.hello__text {
+  margin: 0px 0px 35px 0px;
+}
+
+.hello__avatar {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 243px;
           flex: 0 0 243px;
   height: 243px;
+  position: relative;
   border-radius: 50%;
-  overflow: hidden;
+  -webkit-box-shadow: -5px 13px 0px 0px #EDF7FA;
+          box-shadow: -5px 13px 0px 0px #EDF7FA;
 }
 
-.hello__avavtar img {
+.hello__avatar img {
   max-width: 100%;
 }
 

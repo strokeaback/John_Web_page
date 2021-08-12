@@ -5,26 +5,29 @@
   }
 
   &__content {
-
+    padding: 0px 110px 0px 0px;
+    flex: 1 1 auto;
   }
 
   &__title {
-
+    margin: 0px 0px 25px 0px;
   }
 
   &__text {
-
+    margin: 0px 0px 35px 0px;
   }
 
   &__btn {
 
   }
 
-  &__avavtar {
+  &__avatar {
     flex: 0 0 243px;
     height: 243px;
+    position: relative;
     border-radius: 50%;
-    overflow: hidden;
+    box-shadow: -5px 13px 0px 0px #EDF7FA;
+    //overflow: hidden;
     img {
       max-width: 100%;
     }
