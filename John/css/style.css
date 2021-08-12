@@ -1097,6 +1097,11 @@ body.ie ._ibg img {
   max-width: 100%;
 }
 
+.recent-posts {
+  background: #EDF7FA;
+  padding: 25px 0px 30px 0px;
+}
+
 .page {
   padding: 90px 0px 0px 0px;
   -webkit-box-flex: 1;
