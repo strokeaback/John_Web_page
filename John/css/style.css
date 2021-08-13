@@ -593,6 +593,10 @@ textarea.input {
   color: #21243D;
 }
 
+.title-posts {
+  font-size: 22px;
+}
+
 .row:after {
   display: block;
   content: "";
@@ -1099,20 +1103,81 @@ body.ie ._ibg img {
 
 .recent-posts {
   background: #EDF7FA;
-  padding: 25px 0px 30px 0px;
+  padding: 25px 0px 13px 0px;
 }
 
 .recent-posts__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0px 0px 20px 0px;
 }
 
 .recent-posts__title {
+  padding: 0px 20px 0px 0px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  font-size: 22px;
+}
+
+.recent-posts__view-all {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  font-size: 16px;
+  line-height: 23px;
+  color: #00A8CC;
+}
+
+.recent-posts__items {
+  margin: 0px -10px;
+}
+
+.recent-posts__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  padding: 0px 10px;
+  margin: 0px 0px 17px 0px;
+}
+
+.recent-post {
+  height: 100%;
+  background-color: white;
+  -webkit-box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+          box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.recent-post *:last-child {
+  margin-bottom: 0;
+}
+
+.recent-post__title {
+  display: inline-block;
+  color: inherit;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 146.1538461538%;
+  -webkit-transition: color 0.3s ease 0s;
+  -o-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
+  margin: 0px 0px 17px 0px;
+}
+
+.recent-post__info {
+  margin: 0px 0px 15px 0px;
+  font-size: 18px;
+  line-height: 144.4444444444%;
+}
+
+.recent-post__info span {
+  margin: 0px 10px;
+}
+
+.recent-post__text {
+  margin: 0px 0px 15px 0px;
 }
 
 .page {
@@ -1132,6 +1197,12 @@ body.ie ._ibg img {
   .menu__list li {
     margin: 0px 33px 0px 0px;
   }
+
+  .recent-posts__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media (min-width: 991.98px) {
@@ -1141,6 +1212,10 @@ body.ie ._ibg img {
   }
 
   .menu__link:hover {
+    color: #FF6464;
+  }
+
+  .recent-post__title:hover {
     color: #FF6464;
   }
 }
@@ -1195,6 +1270,11 @@ body.ie ._ibg img {
 @media (max-width: 767.98px) {
   .title {
     font-size: 32px;
+  }
+
+  .title-posts {
+    text-align: center;
+    font-size: 18px;
   }
 
   .menu__body {
@@ -1311,6 +1391,28 @@ body.ie ._ibg img {
     width: 170px;
     height: 170px;
     margin: 0px 0px 40px 0px;
+  }
+
+  .recent-posts {
+    padding: 25px 0px 23px 0px;
+  }
+
+  .recent-posts__view-all {
+    display: none;
+  }
+
+  .recent-post {
+    padding: 15px;
+  }
+
+  .recent-post__title {
+    font-size: 22px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .recent-post__info {
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
   }
 
   .page {
